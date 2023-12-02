@@ -1,0 +1,65 @@
+name: docdoc_appointments_app
+description: "A new Flutter project for doctors appointments"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # State management
+  flutter_bloc: ^8.1.3
+
+  # Code generator (mainly used with cubit & retrofit)
+  freezed: ^2.4.5
+  freezed_annotation: ^2.4.1
+
+  # For Dependency Injection
+  get_it: ^7.6.4
+
+  # Automatically generate code for converting to and from JSON by annotating Dart classes
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+
+  # Networking
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+  retrofit_generator: ^8.0.4
+  pretty_dio_logger: ^1.3.1
+
+  # localization
+  intl: ^0.18.1
+  easy_localization: ^3.0.3
+
+  # for splash screen
+  flutter_native_splash: ^2.3.6
+
+  # for svg images
+  flutter_svg: ^2.0.9
+
+  # for responsive design (adapting screen and font size)
+  flutter_screenutil: ^5.9.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_ic.png"
+  min_sdk_android: 21
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/fonts/

@@ -22,7 +22,7 @@ class AppRouter {
           builder: (_) => Scaffold(
             body: Center(
               child: Text(
-                "No Route definded for ${settings.name}",
+                "No Route defined for ${settings.name}",
               ),
             ),
           ),
